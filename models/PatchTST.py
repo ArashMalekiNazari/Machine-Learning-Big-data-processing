@@ -365,3 +365,8 @@ if __name__ == "__main__":
     n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f"trainable params:   {n_params:,}")
     print(f"loss:               {loss.item():.4f}  (gradients OK)")
+
+
+print("Test")
+print("test 2")
+print("test 3")
